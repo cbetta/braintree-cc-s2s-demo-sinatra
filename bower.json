@@ -1,0 +1,19 @@
+{
+  "name": "braintree-cc-demo-sinatra",
+  "version": "0.0.0",
+  "authors": [
+    "Cristiano Betta <cbetta@paypal.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1"
+  }
+}

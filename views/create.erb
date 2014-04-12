@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Braintree Example</title>
+  <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css">
+
+  <script src='/components/jquery/dist/jquery.min.js'></script>
+  <script src='/components/bootstrap/dist/js/bootstrap.min.js'></script>
+
+</head>
+<body>
+  <div class='container'>
+    <div class="row">
+      <header class="col-sm-12">
+        <h1>Braintree Payment Example</h1>
+      </header>
+    </div>
+
+    <h2>Transaction</h2>
+    <pre>
+<%= CGI.escapeHTML transaction.inspect %>
+    </pre>
+
+    <h2>Params</h2>
+    <pre>
+<%= params.inspect %>
+    </pre>
+    </form>
+  </div>
+</body>
+</html>
